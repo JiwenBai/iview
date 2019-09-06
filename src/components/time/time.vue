@@ -34,6 +34,11 @@
                 default: 60
             }
         },
+         watch: {
+            time() {
+              this.setTime();
+            }
+         },
         data () {
             return {
                 date: ''
